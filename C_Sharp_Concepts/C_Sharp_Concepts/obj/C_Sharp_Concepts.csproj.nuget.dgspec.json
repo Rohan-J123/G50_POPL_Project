@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj": {}
+    "C:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj": {
+    "C:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj",
+        "projectUniqueName": "C:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj",
         "projectName": "C_Sharp_Concepts",
-        "projectPath": "c:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj",
+        "projectPath": "C:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\C_Sharp_Concepts.csproj",
         "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\obj\\",
+        "outputPath": "C:\\Projects\\G50_POPL_Project\\C_Sharp_Concepts\\C_Sharp_Concepts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
