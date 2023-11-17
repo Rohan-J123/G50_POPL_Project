@@ -26,7 +26,7 @@ int main() {
     servaddr.sin_addr.s_addr = inet_addr(host);
 
     for (i = start; i <= end; i++) {
-        std::cout <<"Scanning port "<<i<<"\n";
+        std::cout <<"Scanning port "<<i<<" ... Address = "<<host<<":"<<i<<"\n";
 
         servaddr.sin_port = htons(i);
         sock = socket(AF_INET, SOCK_STREAM, 0);

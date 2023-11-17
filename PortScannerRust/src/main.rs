@@ -1,5 +1,5 @@
 use std::io::{self, Write};
-use std::net::{IpAddr, Ipv4Addr, SocketAddr, TcpStream};
+use std::net::TcpStream;
 use std::time::Duration;
 
 fn main() -> io::Result<()> {
@@ -40,6 +40,7 @@ fn main() -> io::Result<()> {
     for port in start..=end {
         let addr = format!("{}:{}", host, port);
         print!("Scanning port {}... ", port);
+        println!("Address: {} ", addr);
         io::stdout().flush()?;
 
         if is_port_open(addr) {

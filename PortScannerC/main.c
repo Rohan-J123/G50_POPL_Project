@@ -32,7 +32,7 @@ int main(int argc, char **argv){
     servaddr.sin_addr.s_addr = inet_addr(host);
 
     for(i = start;  i <= end; i++){
-        printf("Scanning port %i\n",i);
+        printf("Scanning port %i ... Address = %s\n",i, host);
 
         servaddr.sin_port = htons(i);
         sock = socket(AF_INET, SOCK_STREAM, 0);
