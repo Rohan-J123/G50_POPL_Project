@@ -1,11 +1,3 @@
 # G50_POPL_Project
 
-Relevant Links for Reference:
-
-https://github.com/richkmeli/PortScanner
-
-https://github.com/joeyism/C-Port-Scanner
-
-https://github.com/inglerohit91/PortScanner
-
-https://github.com/RustScan/RustScan
+https://www.canva.com/design/DAFz1m7GMLQ/GRkWa9Kq376qpV6T9VGa9A/edit?utm_content=DAFz1m7GMLQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
