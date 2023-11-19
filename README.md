@@ -61,6 +61,14 @@ Therefore, the combination of JIT compilation, platform abstraction, and a manag
 ### Results:-
 
 To show comparative study between C++ and C#, we have written simple bubble sorting algorithm in both the languages.
+
+* While the C# code could be transported and run on another device, C+ code couldn't.
+
+* On changing array index to get out_of_bound value, C++ continued execution using garbage values while C# gave us a proper array index out of bounds error message.
+
+* On benchmarking C# and C++ bubble sort algorithms, C# codes took more time for execution than C++ codes for all kinds of data structures.
+
+
 ### Potential For Future Work:-
 
 While C# has a lot of advantages over C++, it also has a few disadvantages:-
