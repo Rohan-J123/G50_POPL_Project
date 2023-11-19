@@ -61,8 +61,6 @@ Therefore, the combination of JIT compilation, platform abstraction, and a manag
 ### Results:-
 
 To show comparative study between C++ and C#, we have written simple bubble sorting algorithm in both the languages.
-
-
 ### Potential For Future Work:-
 
 While C# has a lot of advantages over C++, it also has a few disadvantages:-
