@@ -62,11 +62,16 @@ Therefore, the combination of JIT compilation, platform abstraction, and a manag
 
 To show comparative study between C++ and C#, we have written simple bubble sorting algorithm in both the languages.
 
-* While the C# code could be transported and run on another device, C+ code couldn't.
+* While the C# code could be transported and run on another device, C+ code couldn't. This justifies out choice of using C# over C++ for cross-platform development.
 
 * On changing array index to get out_of_bound value, C++ continued execution using garbage values while C# gave us a proper array index out of bounds error message.
 
-* On benchmarking C# and C++ bubble sort algorithms, C# codes took more time for execution than C++ codes for all kinds of data structures.
+* For benchmarking C# and C++ bubble sort algorithms, we took 5000 items and ran both the algorithms
+  
+  for (int i = 0; i < 5000; i++)
+        array[i] = 5000 - i;
+  
+  C# codes took more time for execution than C++ codes for all kinds of data structures. This result isn't surprising and C++ without address sanitizer outperforms all other implementations. The reason is simple, the program does not check for out of bounds when accessing the array and will therefore save one or more instructions per array access.
 
 
 ### Potential For Future Work:-
